@@ -90,6 +90,7 @@ const syncSubscription = (sub) => {
                     .setColor('#008000')
                     .setTimestamp(item.createdTimestamp)
                     .setFooter(`Article lié à la recherche : ${sub.id}`)
+                    .addField('@everyone on tient un heat 🔥')
                     .addField('Taille', item.size || 'vide', true)
                     .addField('Prix', item.price || 'vide', true)
                     .addField('Condition', item.status || 'vide', true);
